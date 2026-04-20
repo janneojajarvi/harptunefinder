@@ -1,0 +1,541 @@
+
+/* 1. MUUTTUJAT JA PERUSASETUKSET */
+:root { 
+    --primary: #2196F3; 
+    --success: #4CAF50; 
+    --warn: #ff9800; 
+    --dark: #333; 
+    --bg: #eeeff3; 
+    --pink: #e91e63;
+    --card-bg: white;
+    --text-color: #333;
+    --input-bg: white;
+    --input-border: #ddd;
+}
+
+/* 2. TUMMA TILA (Dark Mode) */
+body.dark-mode {
+    --bg: #121212;
+    --card-bg: #1e1e1e;
+    --text-color: #e0e0e0;
+    --input-bg: #2d2d2d;
+    --input-border: #444;
+    --dark: #f0f0f0;
+}
+
+body.dark-mode .btn-sha {
+    background-color: #333333 !important;
+    color: #e0e0e0 !important;
+    border-color: #555555 !important;
+}
+
+/* --- LISÄÄ NÄMÄ UUDET SÄÄNNÖT TÄHÄN ALLE --- */
+
+/* Tummennetaan Status Bar yötilassa */
+body.dark-mode .status-bar {
+    background: #263238 !important; /* Tumma harmaan-sininen */
+    border-left: 5px solid var(--primary);
+    color: var(--text-color) !important; /* Varmistetaan vaalea teksti */
+}
+/* Varmistetaan, että myös spanit yötilassa ovat vaaleita */
+body.dark-mode .status-bar span {
+    color: inherit; /* Perii värin .status-bar -elementiltä */
+}
+
+/* Tummennetaan Oktaavi-napit (O- ja O+) yötilassa */
+body.dark-mode #octaveDown,
+body.dark-mode #octaveUp {
+    background: #37474f !important; /* Hieman vaaleampi tumma */
+    color: var(--text-color) !important;
+    border: 1px solid #546e7a;
+}
+
+/* Tummennetaan lukemien taustat (Oktaavi- ja Tempolukema) yötilassa */
+body.dark-mode .display-val {
+    background: #263238 !important; /* Sama tumma kuin status barissa */
+    color: var(--text-color) !important;
+    border: 1px solid #546e7a;
+}
+
+/* Hakutulosten pudotusvalikon tausta yötilassa */
+body.dark-mode .search-results {
+    background-color: #1e1e1e !important;
+    border: 1px solid #444;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+/* Yksittäinen hakutulos-rivi yötilassa */
+body.dark-mode .search-item {
+    background-color: #1e1e1e !important;
+    color: var(--text-color) !important;
+    border-bottom: 1px solid #333;
+}
+
+/* Korostusväri, kun hiiri on hakutuloksen päällä yötilassa */
+body.dark-mode .search-item:hover {
+    background-color: #2c2c2c !important;
+}
+
+/* Suodatusvalikon (Ilman taivutuksia) säiliön tummennus */
+body.dark-mode #filterSelectContainer {
+    background-color: #263238 !important;
+    border: 1px solid #444;
+}
+
+/* Kun Dark Mode on päällä, tummennetaan Info-napin tausta */
+body.dark-mode #infoBtn {
+    background-color: #333333 !important; /* Tummanharmaa tausta, joka sopii tummalle tekstille */
+    border-color: #555555;             /* Hieman erottuva reunus */
+}
+
+/* Jos kyseessä on pelkkä tekstielementti, jolla on luokka, käytä tätä: */
+body.dark-mode .info-text {
+    background-color: #333333 !important;
+}
+/* 5. NUOTTIEN VÄRITYS (Dark Mode) */
+@media screen {
+    body.dark-mode #paper { background: #1e1e1e !important; }
+    body.dark-mode #paper svg path, 
+    body.dark-mode #paper svg rect,
+    body.dark-mode #paper svg text {
+        fill: #e0e0e0 !important;
+        stroke: #e0e0e0 !important;
+    }
+}
+
+/* 3. YLEISET TYYLIT */
+body { 
+    font-family: -apple-system, system-ui, sans-serif; 
+    background: var(--bg); 
+    color: var(--text-color); 
+    margin: 0; 
+    padding: 10px; 
+    transition: background 0.3s, color 0.3s; 
+}
+
+.container { max-width: 700px; margin: auto; }
+
+.card { 
+    background: var(--card-bg); 
+    color: var(--text-color);
+    border-radius: 12px; 
+    padding: 15px; 
+    margin-bottom: 12px; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08); 
+}
+
+h1 { font-size: 1.2rem; margin: 0 0 12px 0; text-align: center; color: var(--primary); }
+
+.status-bar { display: flex; justify-content: space-around; background: #e3f2fd; padding: 12px; border-radius: 8px; border-left: 5px solid var(--primary); font-weight: bold; font-size: 0.9rem; }
+
+.grid-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 10px; }
+.control-unit { display: flex; flex-direction: column; gap: 5px; }
+label { font-size: 0.7rem; text-transform: uppercase; color: #777; font-weight: bold; }
+
+button { border: none; border-radius: 6px; padding: 12px; font-weight: bold; cursor: pointer; color: white; background: var(--primary); transition: opacity 0.2s; }
+button:active { opacity: 0.7; }
+
+.btn-sec { background: #f0f0f0; color: var(--dark); border: 1px solid #ccc; }
+.btn-action { background: var(--success); }
+.btn-opt { background: var(--warn); }
+.btn-sha { 
+    background: #f0f0f0; 
+    color: var(--dark); 
+    border: 1px solid #ccc;
+    
+    /* Säädetään padding: 4px ylös/alas, 12px sivuille */
+    padding: 4px 12px !important; 
+    
+    /* Varmistetaan, että tekstin koko on maltillinen */
+    font-size: 14px; 
+    
+    /* Pakotetaan riviväli pieneksi, jotta se ei venytä nappia */
+    line-height: 1.2;
+    
+    /* Poistetaan mahdollinen minimikorkeus, jos yleiset tyylit asettavat sellaisen */
+    height: auto !important;
+    min-height: 0 !important;
+
+    /* Jos haluat ikonin ja tekstin pysyvän nätisti rivissä */
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.row { display: flex; gap: 8px; align-items: center; }
+/* Genre-painikkeiden säiliö */
+.genre-buttons {
+    display: flex;
+    flex-wrap: wrap;    /* Sallii painikkeiden rivittymisen, jos tila loppuu */
+    gap: 8px;           /* Lisää tasaisen välin painikkeiden väliin */
+    margin: 10px 0;     /* Lisää hieman tilaa ylä- ja alapuolelle */
+    justify-content: center; /* Keskittää painikkeet horisontaalisesti */
+}
+
+/* Yksittäisen genre-painikkeen hienosäätö */
+.genre-btn {
+    flex: 1 1 auto;     /* Painikkeet täyttävät tilan tasaisesti, mutta säilyttävät kokonsa */
+    min-width: 80px;    /* Estää painikkeita menemästä liian kapeiksi */
+    padding: 8px 12px;  /* Mukavampi kosketusalue */
+    font-size: 0.85rem;
+    background: #e3f2fd;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 20px; /* Tehdään niistä pillerin muotoisia */
+    transition: all 0.2s ease;
+}
+
+.genre-btn:hover {
+    background: var(--primary);
+    color: white;
+}
+
+
+.site-tag {
+    position: absolute;
+    top: 5px;           /* Etäisyys aivan yläreunasta */
+    right: 15px;        /* Etäisyys oikeasta reunasta */
+    font-size: 11px;
+    font-weight: bold;
+    color: #999;        /* Vaaleampi harmaa, joka vastaa "KIRJASTO & HAKU" -tyyliä */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    line-height: 1;
+    z-index: 10;
+}
+
+    /* Pidetään www.huuliharppu.fi -teksti siistinä alalaidassa */
+    .print-footer {
+        display: block;
+        display: none;
+        position: fixed;
+        bottom: 5mm;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 10pt;
+        border-top: 1px solid #ccc;
+        padding-top: 5px;
+        color: black !important;
+        
+       
+}
+
+/* Suodatusvalikon (Ilman taivutuksia) säiliö */
+#filterSelectContainer {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.display-val { font-weight: bold; min-width: 30px; text-align: center; background: #eee; border-radius: 4px; padding: 4px; font-size: 0.9rem; }
+
+select, input[type="range"] { width: 100%; height: 40px; border-radius: 6px; border: 1px solid #ddd; }
+textarea { width: 100%; height: 120px; margin-top: 10px; border: 1px solid #ddd; border-radius: 8px; font-family: monospace; font-size: 13px; padding: 10px; box-sizing: border-box; resize: vertical; }
+
+#audio-interface { background: #fff; border-radius: 12px; padding: 10px; margin-bottom: 10px; display: none; border: 2px solid var(--success); }
+#paper { background: white; border-radius: 12px; padding: 15px; overflow-x: auto; min-height: 250px; }
+
+.search-results { border: 1px solid #ddd; border-radius: 6px; max-height: 150px; overflow-y: auto; display: none; margin-top: 5px; background: white; position: absolute; width: calc(100% - 30px); z-index: 100; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.search-item { padding: 12px; border-bottom: 1px solid #eee; cursor: pointer; }
+.search-item:hover { background: #f9f9f9; }
+
+
+  
+    /* Ohje-ikkunan (Modal) tyylit */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000; 
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.6); 
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 400px;
+    color: var(--text-color);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 15px; top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+      
+   
+    @media print {
+    /* Piilotetaan ohje tulosteesta */
+    .modal, #infoBtn, .btn-sha { display: none !important; }
+    /* 1. Skaalaus ja marginaalit: Varmistetaan, etteivät nuotit leikkaudu */
+    @page {
+        size: auto;   /* Auto A4 */
+        margin: 15mm; /* Lisätään reilut marginaalit joka puolelle */
+    }
+
+    /* 2. Piilotetaan kaikki turha käyttöliittymä */
+    .card, 
+    h1, 
+    textarea, 
+    #audio-interface, 
+    .search-results, 
+    label, 
+    .grid-controls, 
+    .control-group-box, 
+    #darkModeToggle { 
+        display: none !important;
+    }
+
+    /* 3. Varmistetaan, että pohja on aina valkoinen */
+    body { 
+        background: white !important; 
+        padding: 0; 
+        color: black !important;
+    }
+
+    /* 4. Nuottien ja tekstien pakotus mustaksi: Korjataan haaleus */
+    #paper { 
+        box-shadow: none; 
+        padding: 0; 
+        width: 100% !important; 
+        margin: 0;
+        transform: scale(0.95);      /* Pienennetään hieman nuotteja, jotta ne mahtuvat laidasta laitaan */
+       
+    }
+
+    /* Pakotetaan SVG-elementit mustaksi, riippumatta yötilasta */
+    #paper svg {
+        background: transparent !important;
+    }
+
+    
+
+    
+    
+
+
+ 
+.control-group-box {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+}
+      
+   
+
+
+
+/* 4. LOMAKKEET JA PAINIKKEET */
+textarea, select, input[type="text"] {
+    background: var(--input-bg);
+    color: var(--text-color);
+    border: 1px solid var(--input-border);
+    border-radius: 6px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* PAKOTETAAN STATUS-PALKKI MUSTAKSI 
+   Koska palkin tausta on vaaleansininen (#e3f2fd), 
+   tekstin on oltava mustaa myös yötilassa.
+*/
+.status-bar, 
+.status-bar span, 
+.status-bar div {
+    color: #000000 !important;
+}
+
+/* Ohjeikkunan (Modal) tekstin väri tottelemaan teemaa */
+.modal-content, 
+.modal-content * {
+    color: var(--text-color) !important;
+}
+
+/* 7. MOBIILIOPTIMOINTI */
+@media screen and (max-width: 600px) {
+    .grid-controls, .control-group-box {
+        grid-template-columns: 1fr;
+    }
+    .card .row {
+        flex-direction: column;
+    }
+}
+
+/* 6. TULOSTUSASETUKSET (Print) */
+/* Tämä on nyt korjattu omaksi lohkokseen, ei muiden tyylien sisään */
+/* --- LOPULLINEN TULOSTUSKORJAUS --- */
+/* --- LOPULLINEN TULOSTUSKORJAUS --- */
+@media print {
+    /* 1. Nollataan marginaalit ja tyhjät tilat */
+    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: auto !important;
+        overflow: visible !important;
+        background: white !important;
+    }
+
+    /* 2. Piilotetaan KAIKKI ylimääräinen (myös liput, napit ja ohjeet) */
+    header, footer, nav, aside, 
+    .grid-controls, .genre-buttons, .card, 
+    #darkModeToggle, #infoBtn, .btn-sha, #shareAppBtn, #langFi, #langEn, #infoModal,
+    .language-switcher, textarea, h1, #audio-interface, #filterSelectContainer {
+        display: none !important;
+    }
+
+    /* 3. Varmistetaan että vain nuotti ja alatunniste näkyvät */
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+        /* 4. Nuotin skaalaus (KORJAA LEIKKAUTUMISEN) */
+    #paper {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important; /* Estää leviämisen */
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+
+    
+
+
+   
+}
+
+      
+      /* Lisää tämä CSS-paneelin loppuun */
+.genre-container { 
+    display: flex;
+    flex-wrap: wrap; /* Sallii nappien rivittymisen siististi */
+    gap: 8px;        /* Väli nappien välissä */
+    justify-content: center; /* Keskittää napit symmetrisesti */
+    margin: 20px 0;
+}
+
+.genre-btn {
+    flex: 1 1 120px; /* Napit yrittävät olla samanlevyisiä (väh. 120px) */
+    max-width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    /* Lisää tähän napin värit ja reunat jos niitä ei ole jo määritelty */
+}
+
+      #loader-container{
+    width:100%;
+    max-width:420px;
+    margin:20px auto;
+    text-align:center;
+    font-family:sans-serif;
+}
+
+#loader-text{
+    margin-bottom:6px;
+    font-size:14px;
+    color:#444;
+}
+
+#loader-bar-wrapper{
+    width:100%;
+    height:20px;
+    background:#ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+#loader-bar{
+    width:0%;
+    height:100%;
+    background:#4caf50;
+    transition:width 0.2s;
+}
+
+#loader-percent{
+    margin-top:6px;
+    font-size:13px;
+}
+      
+      .library-sources{
+    font-size:9px;
+    color:#777;
+    margin-top:-6px;
+    margin-bottom:10px;
+}
+      
+      .site-link {
+  text-align: right; /* Tai 'left', jos sopii paremmin asetteluun */
+  font-size: 11px;
+  line-height: 1;
+  padding: 2px 10px 0 0; /* Minimaalinen täyte ylhäällä */
+  margin-bottom: -5px; /* Vetää alla olevaa sisältöä lähemmäs */
+}
+
+.site-link a {
+  color: #888;
+  text-decoration: none;
+  font-family: sans-serif;
+  opacity: 0.8;
+}
+
+.site-link a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Piilotetaan tulosteesta, jos haluat vain nuotit puhtaana */
+@media print {
+  .site-link {
+    display: none;
+  }
+  
+   .site-tag {
+    display: none; /* Pidetään tulosteet puhtaina */
+  }
+  
+  .print-footer {
+        display: block;
+        position: fixed;
+        bottom: 5mm;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 10pt;
+        border-top: 1px solid #ccc;
+        padding-top: 5px;
+        color: black !important;
+    }
+  
+}
+
+     #paper {
+    max-width: 1000px;
+    margin: 0 auto; /* Keskittää nuotin */
+}
+

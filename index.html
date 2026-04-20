@@ -1,0 +1,169 @@
+   
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarpTune Finder Beta V1.1</title>
+    
+    <link rel="manifest" href="manifest.json">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/abcjs/6.2.2/abcjs-basic-min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/abcjs@6.2.2/abcjs-audio.css">
+</head>
+<body>
+  <div class="site-tag">
+  www.huuliharppu.fi
+</div>
+
+  
+<div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+    <h1>🎶 HarpTune Finder Beta v 1.1</h1>
+    <button id="shareAppBtn" class="btn-sha">
+  <span> </span>
+</button>
+      <button id="infoBtn" class="btn-sec" style="padding: 5px 10px; font-size: 0.8rem;">ℹ️ Ohje</button>
+      <button id="langFi" class="btn-sec" style="padding: 5px; font-size: 0.8rem;">🇫🇮</button>
+<button id="langEn" class="btn-sec" style="padding: 5px; font-size: 0.8rem;">🇬🇧</button>
+
+
+    <button id="darkModeToggle" class="btn-sec" style="padding: 5px 10px; font-size: 0.8rem;">🌙</button> 
+</div>
+    
+    <div class="card">
+     <div id="loader-container">
+
+    <div id="loader-text">Ladataan nuotteja..  / Loading tunes...</div>
+
+    <div id="loader-bar-wrapper">
+        <div id="loader-bar"></div>
+    </div>
+
+    <div id="loader-percent">0%</div>
+
+</div>
+    <div id="tuneTitleDisplay" style="text-align: center; font-weight: bold; font-size: 1.1rem; margin-bottom: 10px; color: var(--primary);"></div>
+    
+    <div class="status-bar" id="status-display">
+
+            <span>Sävellaji: -</span>
+            <span>Suositus: -</span>
+        </div>
+    </div>
+ 
+    <div class="card" style="position:relative;">
+        <label id="labelLibrary">Kirjasto & Haku</label>
+      <small><div id="labelSources" class="library-sources"></div></small>
+      
+        <div class="row" style="margin-top:5px; margin-bottom:10px; flex-wrap: wrap;">
+            <input type="text" id="searchInput" style="flex:1; padding:12px; border-radius:6px; border:1px solid #ddd;" placeholder="Hae biisiä... / Search for a tune...">
+            <button id="searchBtn">Etsi</button>
+            <button id="randomBtn">🎲 Arvo</button>
+          <div class="genre-buttons">
+            
+    <button class="genre-btn" data-genre="Polska">Polska</button>
+    <button class="genre-btn" data-genre="Schottis">Schottis</button>
+    <button class="genre-btn" data-genre="Waltz">Waltz</button>
+    <button class="genre-btn" data-genre="Engelska">Engelska</button>
+    <button class="genre-btn" data-genre="Reel">Reel</button>
+    <button class="genre-btn" data-genre="Hornpipe">Hornpipe</button>
+    <button class="genre-btn" data-genre="Jig">Jig</button>
+    <button class="genre-btn" data-genre="Marsch">Marsch</button>
+</div>
+
+<div id="filterSelectContainer">
+    <label for="filterSelect" id="labelFilter"><strong>Suodatus:</strong></label>
+    <select id="filterSelect" style="flex:1;">
+        <option value="easy">Ilman taivutuksia (✅)</option>
+        <option value="all">Kaikki kappaleet (sis. taivutukset)</option>
+    </select> 
+</div>
+
+        </div>
+        <div id="searchResults" class="search-results"></div>
+        <div class="row">
+            <select id="favoritesSelect" style="flex:1;">
+                <option value="">-- Omat tallennukset --</option>
+            </select>
+            <button id="deleteFavBtn" class="btn-opt" style="background:#f44336;">Poista</button>
+            
+        </div>
+    </div>
+
+    <div class="grid-controls">
+            <div class="control-group-box">
+                <div class="control-unit">
+                    <label id="labelHarp">Huuliharppu</label>
+                    <select id="harpKey">
+                        <option value="7">G</option>
+                        <option value="9">A</option>
+                        <option value="10">Bb</option>
+                        <option value="11">B(H)</option>
+                        <option value="12" selected>C</option>
+                        <option value="14">D</option>
+                        <option value="15">Eb</option>
+                        <option value="16">E</option>
+                        <option value="17">F</option>
+                    </select>
+                </div>
+                <div class="control-unit">
+                    <label id="labelTempo">Tempo (BPM)</label>
+                    <div class="row">
+                        <input type="range" id="tempoRange" min="40" max="240" value="100">
+                        <span id="tempoDisplay" class="display-val">100</span>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+            <div class="control-unit" style="grid-column: span 2;">
+                <label id="labelSettings">Säädöt & Toiminnot</label>
+                <div class="row">
+                    <button id="octaveDown" class="btn-sec">O-</button>
+                    <span id="octaveDisplay" class="display-val">0</span>
+                    <button id="octaveUp" class="btn-sec">O+</button>
+                    <button id="playBtn" class="btn-action" style="flex-grow:2">▶ Soita</button>
+                    <button id="stopBtn" class="btn-opt" style="background:#f44336; flex-grow:1">⏹</button>
+                    <button id="saveFavBtn" style="background:var(--pink);">❤</button>
+                    <button id="printBtn" class="btn-sec">🖨</button>
+                    
+                </div>
+            </div>
+        </div>
+        <textarea id="abcInput" placeholder="Kirjoita tai liitä ABC-koodi tähän..."></textarea>
+    </div>
+
+    <div id="audio-interface">
+        <div id="audio-control"></div>
+    </div>
+
+    <div id="paper"></div>
+  <div class="print-footer">www.huuliharppu.fi</div>
+</div>
+
+          <footer style="text-align: center; padding: 20px; font-size: 0.9em; color: #666;">
+  © Janne Ojajärvi
+</footer>
+          <script src="script.js"></script>
+          </body>
+
+<div id="infoModal" class="modal">
+    <div class="modal-content" style="color: var(--text-color) !important;">
+        <span class="close">&times;</span>
+        <h2 id="modalTitle">Huuliharpun tabulatuurien lukuohje</h2>
+        <hr>
+        <ul id="instructionsList" style="text-align: left; line-height: 1.6; color: var(--text-color);">
+            <li><strong>Plusmerkki (esim. +4):</strong> Puhalla kyseiseen reikään.</li>
+            <li><strong>Miinusmerkki (esim. -4):</strong> Ime kyseisestä reiästä.</li>
+            <li><strong>Heittomerkki (esim. -4'):</strong> Puolisävelaskeleen taivutus (bend).</li>
+            <li><strong>2 tai 3 heittomerkkiä (-3''):</strong> Kokosävelaskeleen tai 1,5 sävelaskeleen taivutus.</li>
+            <li><strong>o-kirjain (+4o):</strong> Ylitaivutus.</li>
+            <li><strong>Pystyviiva (|):</strong> Tahdin raja.</li>
+        </ul>
+        <p id="modalFooter"><small>Tämä työkalu on suunniteltu diatonisille huuliharpuulle eli "bluesharpuille"</small></p>
+    </div>
+</div>
+    
