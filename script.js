@@ -780,7 +780,7 @@ if (titleDisplay) {
 
         if (synthControl) { try { await synthControl.pause(); } catch(e) {} }
         synthControl = new ABCJS.synth.SynthController();
-        await synthControl.load("#audio-control", null, { displayPlay: true, displayRestart: true });
+        await synthControl.load("#audio-control", null, { displayPlay: true, displayProgress: true, displayRestart: true });
         await synthControl.setTune(visualObj, false);
         
         const startElem = document.querySelector('.abcjs-midi-start');
