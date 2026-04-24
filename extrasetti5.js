@@ -41,7 +41,7 @@ var extrasetti5 = [
   },
   {
     name: "Sandy's Boys",
-    abc: "X:1\nT: Sandy's Boys\nO: Trad. USA\nR: Polska\nL:1/8\nM:2/4\nI:linebreak $\nK:Amix\nV:1\n AG EG | E/D/C A,2 | AG EG | A4 |\n$ AG EG | E/D/C A,2 | A,E DC | A,4 :|\n|:$ E2 E2 | DC A,2 | A,E DC | A,E DC |\n$ E2 E2 | DC A,2 | A,E DC | A,4 :| %16"
+    abc: "X:1\nT: Sandy's Boys\nO: Trad. USA\nR: Polka\nL:1/8\nM:2/4\nI:linebreak $\nK:Amix\nV:1\n AG EG | E/D/C A,2 | AG EG | A4 |\n$ AG EG | E/D/C A,2 | A,E DC | A,4 :|\n|:$ E2 E2 | DC A,2 | A,E DC | A,E DC |\n$ E2 E2 | DC A,2 | A,E DC | A,4 :| %16"
   },
   {
     name: "Schottis från Övermark",
