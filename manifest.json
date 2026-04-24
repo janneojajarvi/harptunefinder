@@ -1,15 +1,24 @@
 {
   "name": "HarpTune Finder",
   "short_name": "HarpTuneFinder",
-  "start_url": "index.html",
+  "id": "/harptunefinder/",
+  "start_url": "/harptunefinder/index.html",
+  "scope": "/harptunefinder/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2196F3",
   "icons": [
     {
-      "src": "https://via.placeholder.com/192",
+      "src": "kuva.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "kuva.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
