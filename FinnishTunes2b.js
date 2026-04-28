@@ -1,4 +1,4 @@
-var FinnishTunes2 = [
+var FinnishTunes2b = [
     {
         "name": "Lantti",
         "abc": "%%abc-charset utf-8\\n\\nX: 0\nT: Lantti\nO: trad Finland\nZ: John Chambers <jc@trillian.mit.edu>\nP: F2 Bb2 ... (4-6 times)\nK:\n% - - - - - - - - - - - - - - - - - - - - - - - - -\nP: Lantti   [F]\nM: 2/4\nL: 1/16\nK: F\n|: A2AA A2B2 | c2c2 c3c | c2a2 g3c | c2g2 f3B \\\n|  A2AA A2B2 | c2c2 c3c | c2a2 g3e | f2f2 f4 :|\n|: a4 f4 | c2c2 c4 | a4 f4 | c2c2 c4 \\\n| b2b2 b4 | a2a2 a4 | g2g2 gbge | g2f2 f4 :|\n% - - - - - - - - - - - - - - - - - - - - - - - - -\nP: Lantti   [Bb]\nZ: John Chambers <jc@trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: Bb\n|: D2DD D2E2 | F2F2 F3F | F2d2 c3F | F2c2 B3E \\\n|  D2DD D2E2 | F2F2 F3F | F2d2 c3A | B2B2 B4 :|\n|: d4 B4 | F2F2 F4 | d4 B4 | F2F2 F4 \\\n| e2e2 e4 | d2d2 d4 | c2c2 cecA | c2B2 B4 :|"
@@ -6,10 +6,6 @@ var FinnishTunes2 = [
     {
         "name": "Kahdeksan miehen engeliska",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Kahdeksan miehen engeliska\nT: ÅAttaman engelska\nM: 2/4\nL: 1/16\nK: D\nP: Polka (3x)\n|: b3a g2f2 | A2ce cAce | a3g f2e2 |1,3 d2fa fdfa :|2,4 d2d2 d4 :|\n|: D2FA FDFA | G2Bd BGBd | A2ce cAce |1,3 fedc dcBA :|2,4 d2d2 d4 :|\nP: Polska (2x)\nM: 3/4\nL: 1/16\n|: A4 | DCDE FEDE F2D2 | FEFG AGFG A2F2 | A2FA d2Ad f2df | fedc d4 :|\n|: A4 | d2fd Acec Acec | Adfd Acec Acec | ABcd efge fafd | egec d4 :|"
-    },
-    {
-        "name": "Penttilän sillalla",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Penttilän sillalla\nT: At the Penttilä bridge\nC: Konsta Jylhä\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: Em\n|:\\\ne>f ge B2 B2 | G>A GE F4 | F>G Ac B2 BF | A2 G2 GF E2 | e>f ge B2 B2 |\nB>e ge f4 | fg ag fe ^dB | e2 e2 e4 :: D2 FA cB ce | d2 dg B2 Bd |\nc2 ce AG FD | G2 B2 d4 | e2 ef ~g2 fe | d2 dg B2 Bd | c2 ce fd ef | g2 g2 g4 :|"
     },
     {
         "name": "Nuuskapolkka",
@@ -64,10 +60,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Höyläkatrilli   [G]\nO: Finland\nR: march\nZ: 2015 John Chambers <jc:trillian.mit.edu>\nP: Play twice\nM: 2/4\nL: 1/16\nK: G\n|:\\\nBAG2 FED2 | C4- C2B,C | B,2D2 G2D2 | B2G2 B2G2 |\\\ncBA2 GFE2 | D4- D2B,D | CDE2 F2B2 | A2F2 G4 :|\n|:\\\nG4 D4 | c2B2 A4 | B4 G4 | GAGF E2D2 |\\\nd8 | D4 E2F2 | G4 B4 | G8 :|\n|:\\\nDEDC B,2D2 | G2D2 B2G2 | c2B2 A2F2 | GAGF E2D2 |\\\nDEDC B,2D2 | G2D2 B2G2 | c2B2 ABAF | G8 :|"
     },
     {
-        "name": "Isä-Jussin sottiisi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Isä-Jussin sottiisi\nC: Konsta Jylhä{}\nO: Finland\nM: 4/4\nL: 1/8\nK: C\n|: C2EG c2Bc | e2cA GFED \\\n| C2EG c2Bc | B2A2 A4 \\\n| f2fg fedc | B2B2 B3A |\n| GABc defg | agge cAGE \\\n|| C2EG c2Bc | e2cA GFED \\\n| C2EG c2Bc | B2A2 A4 | f2fe d^cdf |\n| e2c2 G4 | B2Bc BGAB | c2eg g4 \\\n| f2fe d^cdf | e2c2 G4 \\\n| B2Bc BGAB | c2c2 Hc4 :|\n|: faaf defa | g2ge c2Bc \\\n| e2G2 BGBd |1,3 c2eg g3f :|2,4 dc c2 c4 \\\n:: EAc2 EAc2 | cBdc BA^GA |\n| Bcd2 f3e | e2d2 cBA2 \\\n|  EAc2 EAc2 | cBdc BA^GA \\\n| Bcdf e2^G2 |1 A4 A4 :|2 A4 G4 |]"
-    },
-    {
         "name": "Langdans Närpiöstä",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Langdans Närpiöstä    [G]\nP: I A4 B4 C2 A4 B4 C4\nR: masurkka\nM: 3/4\nL: 1/8\n%%partsspace 10\nK: G\n\\\n|: G>c B>A B>c | d>g bz b2 \\\n| G>c B>A B>c | d>f az a2 |\n| A>B c>d c>A | d>f a2- a>g \\\n\\\n| f>e d>c B>A |1,3 G>A B>c d2 :|2,4 G2 g2 z2 :|\n\\\n|: g>e c>e c>e | e>d B>d B>d \\\n|  d>B c>A F>A |1,3 G>A B>c d2 :|2,4 G2 G2 z2 :|\n\\\n|: b2 b>a g>e | d>e d>B d>b \\\n| a2 c'>a f>a |1,3 g2 b>g d>B :|2,4 g2 g2 z2 :|"
     },
@@ -88,10 +80,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Höyläkatrilli   [G]\nO: Finland\nR: march\nZ: 2015 John Chambers <jc:trillian.mit.edu>\nP: Play twice\nM: 2/4\nL: 1/16\nK: G\n|:\\\nBAG2 FED2 | C4- C2B,C | B,2D2 G2D2 | B2G2 B2G2 |\\\ncBA2 GFE2 | D4- D2B,D | CDE2 F2B2 | A2F2 G4 :|\n|:\\\nG4 D4 | c2B2 A4 | B4 G4 | GAGF E2D2 |\\\nd8 | D4 E2F2 | G4 B4 | G8 :|\n|:\\\nDEDC B,2D2 | G2D2 B2G2 | c2B2 A2F2 | GAGF E2D2 |\\\nDEDC B,2D2 | G2D2 B2G2 | c2B2 ABAF | G8 :|\n\n%%sep 1 1 500"
     },
     {
-        "name": "Isä-Jussin sottiisi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Isä-Jussin sottiisi\nC: Konsta Jylhä{}\nO: Finland\nM: 4/4\nL: 1/8\nK: C\n|: C2EG c2Bc | e2cA GFED \\\n| C2EG c2Bc | B2A2 A4 \\\n| f2fg fedc | B2B2 B3A |\n| GABc defg | agge cAGE \\\n|| C2EG c2Bc | e2cA GFED \\\n| C2EG c2Bc | B2A2 A4 | f2fe d^cdf |\n| e2c2 G4 | B2Bc BGAB | c2eg g4 \\\n| f2fe d^cdf | e2c2 G4 \\\n| B2Bc BGAB | c2c2 Hc4 :|\n|: faaf defa | g2ge c2Bc \\\n| e2G2 BGBd |1,3 c2eg g3f :|2,4 dc c2 c4 \\\n:: EAc2 EAc2 | cBdc BA^GA |\n| Bcd2 f3e | e2d2 cBA2 \\\n|  EAc2 EAc2 | cBdc BA^GA \\\n| Bcdf e2^G2 |1 A4 A4 :|2 A4 G4 |]\n\n%%sep 1 1 500"
-    },
-    {
         "name": "Kahdeksan miehen engeliska",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Kahdeksan miehen engeliska\nT: ÅAttaman engelska\nM: 2/4\nL: 1/16\nK: D\nP: Polka (3x)\n|: b3a g2f2 | A2ce cAce | a3g f2e2 |1,3 d2fa fdfa :|2,4 d2d2 d4 :|\n|: D2FA FDFA | G2Bd BGBd | A2ce cAce |1,3 fedc dcBA :|2,4 d2d2 d4 :|\nP: Polska (2x)\nM: 3/4\nL: 1/16\n|: A4 | DCDE FEDE F2D2 | FEFG AGFG A2F2 | A2FA d2Ad f2df | fedc d4 :|\n|: A4 | d2fd Acec Acec | Adfd Acec Acec | ABcd efge fafd | egec d4 :|\n\n%%sep 1 1 500"
     },
@@ -106,10 +94,6 @@ var FinnishTunes2 = [
     {
         "name": "Nauhapolkka",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Nauhapolkka (Vironpolkka)\nM: 2/4\nL: 1/8\nK: G\nP: G:\nd/c/ |: BB Bc/B/ | AA AB/c/ | dd d/c/B/A/ | GG G2 :: ce ce | Bd Bd | cD DF | AG G2 :|\nP: D:\nK: D\na/g/ |: ff fg/f/ | ee ef/g/ | aa a/g/f/e/ | dd d2 :: gb gb | fa fa | gA Ac | ed d2 :|\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Penttilän sillalla",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Penttilän sillalla   [Em,G]\nT: At the Penttilä bridge\nC: Konsta Jylhä\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: Em\n|:\\\ne>f ge B2 B2 | G>A GE F4 | F>G Ac B2 BF | A2 G2 GF E2 | e>f ge B2 B2 |\nB>e ge f4 | fg ag fe ^dB | e2 e2 e4 :: D2 FA cB ce | d2 dg B2 Bd |\nc2 ce AG FD | G2 B2 d4 | e2 ef ~g2 fe | d2 dg B2 Bd | c2 ce fd ef | g2 g2 g4 :|\n\n%%sep 1 1 500"
     },
     {
         "name": "Ievan polkka",
@@ -360,10 +344,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Mora polskan  [hambo]\nO: Trad\nN: Taught by Bengt Jonsson as a hambo.\nN: Played in several different polska rhythms.\nR: polska, hambo\nM: 3/4\nL: 1/8\nK: Dm\n|: A2 A>^G A>^c | d2 d>^c d>e \\\n|[1,3 f2 f>e (3d^cd | e2 e>^c A2 :|[2,4 f2 f>e f>g | a2 a4 :|\n|: a2 (3aba g>e | f2 f>d e2- \\\n| e>f e>^c A>c |1,3 d>^c d>e f>g :|2,4 d2 d4 :|\n\n%%sep 1 1 500"
     },
     {
-        "name": "Morsiusmarssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Morsiusmarssi\nT: Wedding march\nC: Konsta Jylhä\nZ: John Chambers <jc@trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: D\n|: F3E DFFA | fgfe d2c2 | dedc B2A2 | G3F E4 \\\n| A2Ac e2f2 | g3f e4 | {efg}a2c2 cBA2 | f2d2 dcd2 |\n| F3E DFFA | fgfe d2c2 | dedc B2AB | B3A G4 \\\n| efgf e2e2 | abag fedf | efed c2A2 | d4-d4 :|\nK: Dm\n|: d6 f2 | ^c6 e2 | d2A2 F2A2 | E2A2 D2F2 \\\n| A,6 ^C2 | E2G2 F2E2 | FED2 GFE2 | A8 |\n| A6 (3ded | ^c2d2 e2f2 | g6 (3fgf | e2d2 ^c2_B2 \\\n| A2^c2 e2g2 | a2g2 f2e2 | d2f2 A2^c2 | d4-d4 :|\n\n%%sep 1 1 500"
-    },
-    {
         "name": "Oikeo Käsi",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Oikeo Käsi\nS: Kesäjuhlat 2013, Saarijärvi; Suomalaisen Kansantanssin Ystävät r.y.\nZ: 2013 John Chambers <jc:trillian.mit.edu>\nM: 2/4\nL: 1/8\nP: 2X\nK: D\n|:\\\ndf e2 | df e2 | dd/d/ cB | A2 A2 :|\nw: Vai* niin, vai* niin, vai jo se Vap-pu vie-tiin.\n|:\\\nfd df | gf ee | ge eg | ba aa |\nw: Va-pun kans-sa mon-ta yö-tä, Va-pun kans-sa mon-ta yö-tä,\ngf dd | fg fe | eg fe | d2 d2 :|\nw: Va-pun kans-sa mon-ta yö-tä, vie-re-tys-ten maat-tiin.\n\n%%sep 1 1 500"
     },
@@ -492,16 +472,8 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Haapavesi valssi\nC: Keith Murphy\nR: waltz\nZ: 2011 John Chambers <jc:trillian.mit.edu>\nM: 3/4\nL: 1/8\nK: D\nAcA |\\\ncd dA cA | cd dA cd | e2 eg fd | e2 A2 Bc |\\\ncd dA cA | cd dA cd | e2 eg e{d}c | d3 :|\n|: efg |\\\na2 ag fd | g3 f- fg | eA Ag fg | e2 A2 fg |\\\na2 ag fd | g3 f- fg | e2 eg e{d}c | d3 :|\n\n%%sep 1 1 500"
     },
     {
-        "name": "Hannun ja Riitan häävalssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Hannun ja Riitan häävalssi\nT: Hannu and Riita's Wedding Waltz\nR: waltz\nC: Konsta Jylhä\nB:\nD:\nZ: John Chambers <jc:trillian.mit.edu>\nN:\nM: 3/4\nL: 1/4\nK: Am\n|: [ec]>fe | [eB]>fe | [eA]dc | [B2^G2]B/c/ \\\n| [dF]>cB | [cE]BA | [GD]AF | [E3C3] |\n| [ec]>fe | [eB]>fe | [eA][af][ge] | [f3d3] \\\n| [ec]>d[cA] | [d^G]eB | A3- | A2 :|\n|: d/e/f/e/d | g2f | e2-e/c/ | c3 \\\n| e/^g/b/g/e | dcd | e3- | e3 |\n| def | fed | c>de | AGF \\\n| E2E | ^F2^G |1 A3- | A3 :|2 A3- | A2G ||\n|: Gz/E/G/c/ | e/g/gf/e/ | d/a/ a/z/a | a>af/d/ \\\n| B/g/ g/z/g | g>fd/B/ | G/e/ e/z/e | e2E/F/ |\n| Gz/E/G/c/ | e/g/gf/e/ | d/a/ a/z/a | a>gf/e/ \\\n| d/g/ g/z/g | BgB |1 c3- | c2E/F/ :|2 c3 | e3 |]\n\n%%sep 1 1 500"
-    },
-    {
         "name": "Kehruvalssi",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Kehruvalssi\nT: Spinning Waltz\nR: waltz\nO:\nB:\nD:\nZ: John Chambers <jc@trillian.mit.edu>\nN:\nM: 3/4\nL: 1/4\nK: G\n|: d2d | e2B | d2c | c3 | a2g | f2e | e2d | B3 | g2B | B2c |\nB2A | A3 | f2e | d2F | A2G | G3 :: B2B | c2B | e2f g2e | a2g f2e |\ne3 | d3 | g2B | B2c | B2A | A3 | e^df | ecA | A2G | G3 :|\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Kesän tullessa",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Kesän tullessa\nT: Kesä tullee\nT: the Coming of Summer\nC: Konsta Jylhä\nR: waltz\nO: J.P.Nyström\nD:\nB:\nZ: John Chambers <jc:trillian.mit.edu>\nN:\nM: 3/4\nL: 1/8\nK: A\n|: EA \\\n| c3 c c2- | c2 cB AF | E3 E E2- | E2 CD EC | A3 A A2- | A2 AG FE | G6- | G2 GA Bc |\n| d3 d d2- | d2 dc BA | G3 G G2- | G2 EF GA | B3 B B2 | ~B2 A2 B2 | c6- | c4 EA |\n| c3 c c2- | c2 cB AF | E3 E E2- | E2 CD EF | A3 A A2 | A2 B2 c2 | d6- | d4 Bc |\n| d3 d d2- | d2 dc BA | c3 c c2- | c2 BA GF | GF E2 F2 | D4 B,2 | A,6- | A,2 z2 :| [K:Am]\n|: E2 \\\n| E3 cBc | E3 cBc | d4 c2 | B4 E2 | B2 B2 c2 | d2 c2 B2 | c4 d2 | e3 c A2 |\n| f3 d B2 | g4 ~f2 | e6- | e4 d2 \\\n|1 c2 B2 A2 | G4 F2 | E6- | E4 :|2 c2 e2 c2 | d2 ~c2 B2 | A6- | A2 z2 |]"
     },
     {
         "name": "Halla-Viinen jenkka",
@@ -684,10 +656,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Kaustisen polkka\nR: polka\nO: Finland\nM: 2/4\nL: 1/16\nK: Am\n|: ABcd e2a2 | e2c2 cBcd \\\n| c2B2 B2AB |1,3 cBAc B2E2 :|2,4 cBA2 A2Hz2 :|\n|: ABcd e2a2 | c'2b2 a2^ga \\\n| b2e2 e^geg |1,3 b2{a}a2 a^ga2 :|2,4 b2{a}a2 a2z2 :|\n|: g2ag eceg | c'2g2 eceg \\\n| g2ag gdBd |1,3 c2c2 cdef :|2,4 c2c2 c2z2 :|"
     },
     {
-        "name": "Käyn ahon laitaa",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Käyn ahon laitaa\nC: Juha Vainio\nM: C|\nL: 1/4\nK: D\n| F^E FE | FA, DF | FE E^D | E3 z \\\n| E^D ED | EA, CE | ED DC | D3 z |\n| F^E FE | FB, ^DF | FE EF | Gz ^G2 \\\n| AA A=G | F2 E2 | D4- DA, DF |\n| A2 A2- | AA GF | G2 E2- | EA, CE \\\n| G2 G2- | GG F^E | F4- | FA, DF |\n| A2 A2- | AA GF | G2 E2- | EA, CE \\\n| G2 G2- | GG FE | D2 z2 | z2 z2 \\\n|1 Ta4- | a4 :|2 zA Bc | dz Kdz |]**"
-    },
-    {
         "name": "Kazazok",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Kazazok  [D,A]\nT: Kazat\\vsok\nO: Finland, Russia\nM: 2/4\nL: 1/8\nK: D\n|: DF FF | EG F2 :|\\\n|: A2 E2 | CB, CA, | A,B, CE | DB, A,2 :|\n\n%%sep 1 1 500"
     },
@@ -770,10 +738,6 @@ var FinnishTunes2 = [
     {
         "name": "Koiviston polska",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Koiviston polska   [Gm]\nO: Trad Finland\nR: polska\nS: Nokia 1990s ringtone\nM: 3/4\nL: 1/16\nK: Gm\n|:dedc BcBA G2B2 \\\n| ABAG ^FGF=E D2EF \\\n| G2^FG A2GA B2AB \\\n| c2Bc d4 [d4^F4] :|\n[|f4 fgfe d2d2 \\\n| e2e2 e2dc d2B2 \\\n| f4 fgfe d2d2 \\\n| e2e2 e2dc d2c2 ||\n||BABc d2B2 A2G2 \\\n| BAG^F F4 G2A2 \\\n| BABc d2B2 A2G2 \\\n| BAG^F F4 G4 |]"
-    },
-    {
-        "name": "Konstan parempi valssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Konstan parempi valssi\nR: waltz\nC: Konsta Jylhä\nB:\nD:\nZ: 1997 by John Chambers <jc@trillian.mit.edu>\nN: From a July 1971 recording by Purppuripelimannit.\nN: The title means , and was bestowed on the tune by musicians\nN: who liked the tune.  Konsta Julhä was one of Finland's best-known traditional\nN: fiddlers, and one of the main organizers of the Kaustinen festival.\nM: 3/4\nL: 1/8\nK: D\n|: DD DF Ad | f4 d2 | d2 {ed}cd ed | B2 {=c}BA GF \\\n| EE A2 {A}c2 | c4 B2 |1,3 A2 {BA}^GA BA | F2 E2 D2 :|2,4 A2 {BA}^GA Bc | d4 z2 :|\nF2 \\\n|: B3 c d2 | d3 cBd | c3 B^AB | c3 ^A F2 \\\n| f3 gfg | fe dc B^A |1,3 Bc de fg | f4 F2 :|2,4 B2  zB B2 | B4 z2 :|\nf2 \\\n|: f3 gaf | d3 ef2 | gf ga bg | e2 ze e2 \\\n| gf ga bg | e2 ze eg | fe fg af | d2 A2 F2 ||\n|| {DA}f3 gaf | d3 ef2 | gf ga bg | e2 za ac' \\\n| c'b ba ag | ge cA Bc | d2 zD D2 | D4 z2  :|"
     },
     {
         "name": "Koskisen Sakarin valssi  #1",
@@ -912,14 +876,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 0\nT: Finnish March 1\nK: C"
     },
     {
-        "name": "Morsiusmarssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Morsiusmarssi\nT: Wedding march\nC: Konsta Jylhä\nZ: John Chambers <jc@trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: D\n|: F3E DFFA | fgfe d2c2 | dedc B2A2 | G3F E4 \\\n| A2Ac e2f2 | g3f e4 | {efg}a2c2 cBA2 | f2d2 dcd2 |\n| F3E DFFA | fgfe d2c2 | dedc B2AB | B3A G4 \\\n| efgf e2e2 | abag fedf | efed c2A2 | d4-d4 :|\nK: Dm\n|: d6 f2 | ^c6 e2 | d2A2 F2A2 | E2A2 D2F2 \\\n| A,6 ^C2 | E2G2 F2E2 | FED2 GFE2 | A8 |\n| A6 (3ded | ^c2d2 e2f2 | g6 (3fgf | e2d2 ^c2_B2 \\\n| A2^c2 e2g2 | a2g2 f2e2 | d2f2 A2^c2 | d4-d4 :|"
-    },
-    {
-        "name": "Olut-marssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 2\nT: Olut-marssi\nT: Beer march\nC: Konsta Jylhä\nO: Finland\nZ: John Chambers <jc:trillian.mit.edu>Scand\nM: 6/8\nL: 1/8\nK: D\nA |\\\nD2F A2d | c2B  A2A | Ace gec | age cBA |\\\nD2F A2d | c2B A2A | Ace gec | d3- d2 :|\n|: f/g/ |\\\naza aga | b2a g2e/f/ | gzg gfg | a2g f2A |\\\ndzd def | gzg gbb | agf gbc | d3- d2 :|"
-    },
-    {
         "name": "Finnish Masurkka 1",
         "abc": "%%abc-charset utf-8\\n\\nX: 0\nT: Finnish Masurkka 1\nK: C"
     },
@@ -1044,10 +1000,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: El Choclo\nT: The Ear of Corn\nC: \\'Angel Gregorio Villoldo (1868-1919)\nZ: 2005 John Chambers <jc:trillian.mit.edu>\nN: The piece was premiered in 1903 - the date appears on a program of the\nN: venue - at the elegant restaurant  on 966 Cangallo Street\nN: (today Teniente General Per\\'on) by the orchestra led by Jos\\'e Luis Roncallo,\nN: who had to disguise it by titling the number as , because\nN: the owner of the local did not like tango music. Despite this, there is a\nN: belief that it was composed in 1898.\nR: tango\nM: 2/4\nL: 1/16\nK: Am\n%%continueall 0\n% - - - - - - - - - -\n[|] EEF |\\\nFEEA Accf | f2{gf}e2 zeea | aeec cddc | c2{dc}B2 zEEF |\nFEE^G GBBf | f2{gf}e2 z e^de | b^gge e=ddc | B2{cB}A2 zEEF |\nFEEA Accf | f2{gf}e2 zeea | aee^c ceeg | g2{ag}f2 zFFf |\nfeed dccB | B2{cB}AA AcBA | A2{BA}^GB BdcB | A2 z3 |]\n% - - - - - - - - - -\n|: G^FG |\\\nff2f gfe^d | fe2B =dcBA | cB2F BAG^F | A2G2 zE^DE |\ndd2d edcB | d2c2 zcdc | BA^GA Bcd^d | e2z3 :|\n% - - - - - - - - - -\nK: A\n[| Ee^c |\\\nAEzc AEAc | d2{ed}B2 zEdB | GEzG EGBd | c2{dc}A2 zEcB | ^AF^EF GABc |\ne2{fe}d2 zB^AB | c2{^dc}B2 zABA | A2{BA}G2 zEec | AEzc AEAc |\nd2{ed}B2 zEdB | GEzG EGBd | c2{dc}A2 zEcB | ^AF^EF GABc |\ne2{fe}d2 zFdc | {cd}cB^AB F=AGB |[1 A2 z3 |][2 .A2.e2 [a2c2] Hz2 |]\n% - - - - - - - - - -\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
-        "name": "Konstan D-molli sotiisi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Konstan D-molli sotiisi\nC: Konsta Jylhä\nR: shottish\nB: Konstan Nuottikirja\nZ: 2014 John Chambers <jc:trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: Dm\n|:\\\nfAfA eGeG | dFdF c2(B2 | A2)AB A2FE | D2F2 A4 |\nfAfA eGeG | dFdF c2(B2 | A2)AB A2^ca | d2d2 d4 :|\n|:\\\n((3Adfa2) gfe2 | ((3Adfa2) gfef | g2ga b2ag | a2a2 a4 |\n(Adfa) g2fe | f2cA G2B2 | AAAB A2FE | D2[d2D2] D4 :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
-    },
-    {
         "name": "Du är såa vacker för mina ögon",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Du är såa vacker för mina ögon\nR: hambo-polska\nM: 3/4\nL: a/8\nK: Am\nA, A,>A, \\\n| E2 E>E c>B | A2 E>F G>F | D2 D>F A>A | E3 :|\nw: Du är så vack-er för mi-na ö-gon, som tu-sen lil-jor up-på en kvist.\nw: en-sam-man till att gå här och van-dra gör vä-gen för mig o-änd-ligt lång,\n|: E A>A \\\n| ^G3 B A>A | E2 C>D E>E | D2 C>D E>E | A,3 :|\nw: Nu har jag kom-mit till den ti-den, att jag kan ta-la för dig min brist.\nw: men kom-mer lill-a vän-nen med mej, så bli-ver väg-en o-änd-ligt kort.\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
@@ -1056,20 +1008,12 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Elämä juoksuhaudoissa\nT: Life in the Trenches\nC: Tune: trad Finland, Russia\nC: Lyrics: Usko Kemppi 1927\nR: waltz\nM: 3/4\nL: 1/4\nK: Dm\n[|\\\nAFG | Ad>B | A3- | AzA/A/ |\\\nAFG | AGF | E3- | EzA/A/ ||\\\nAFG | Adf | a3 | g2g/g/ |\n| f2f | edB | A3- | AzA/A/ ||\\\nAFG | Ad>B | A3- | AzA/A/ |\\\nAdf | ag>f | e3- | e2e |\n|| g2a | bag | a3 | f2d/d/ |\\\nA^ce | gfe | d3- | dzA |]|\\\nf3 | e3 | d3- | d^c>e | d3- |\n| dA>B | G3- | G2G ||\\\ne3 | ^c3 | A3- | AB>A |\\\nA2E- | EA>G | F3- | FzA ||\\\nf3 | e3 |\n| d3- | d^c>e |\\\nd3- | dA>B | G3- | GBA ||\\\nG3 | efe | d3 | AcB | A2E- | EFE | D3- | Dz2 |]\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
-        "name": "Hannun ja Riitan häävalssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Hannun ja Riitan häävalssi\nT: Hannu and Riita's Wedding Waltz\nR: waltz\nC: Konsta Jylhä\nB:\nD:\nZ: John Chambers <jc:trillian.mit.edu>\nN:\nM: 3/4\nL: 1/4\nK: Am\n|: [ec]>fe | [eB]>fe | [eA]dc | [B2^G2]B/c/ \\\n| [dF]>cB | [cE]BA | [GD]AF | [E3C3] |\n| [ec]>fe | [eB]>fe | [eA][af][ge] | [f3d3] \\\n| [ec]>d[cA] | [d^G]eB | A3- | A2 :|\n|: d/e/f/e/d | g2f | e2-e/c/ | c3 \\\n| e/^g/b/g/e | dcd | e3- | e3 |\n| def | fed | c>de | AGF \\\n| E2E | ^F2^G |1 A3- | A3 :|2 A3- | A2G ||\n|: Gz/E/G/c/ | e/g/gf/e/ | d/a/ a/z/a | a>af/d/ \\\n| B/g/ g/z/g | g>fd/B/ | G/e/ e/z/e | e2E/F/ |\n| Gz/E/G/c/ | e/g/gf/e/ | d/a/ a/z/a | a>gf/e/ \\\n| d/g/ g/z/g | BgB |1 c3- | c2E/F/ :|2 c3 | e3 |]\n\n%%sep 1 1 500\n%%sep 1 1 500"
-    },
-    {
         "name": "Håargalåaten",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Håargalåaten\nO: trad\nR: hambo\nZ: John Chambers <jc@trillian.mit.edu>\nN: There are several incompatible versions of this tune.\nN: It is played in Gm, Am, Dm and sometimes in major.\nM: 3/4\nL: 1/8\nK: Gm\n|: d2 d>e d>c | c>B B>D G>B | B>A A>D ^F>A |1,3 G>^F G>A B>c :|2,4 Gz G4 :|\n|: B>c d2 B2 | c>d e2 c2 | f2 f>g f>e | e>d d4 \\\n|  B>c d2 B2 | c>d e2 c2 | f2 f>g f>e | e>d d4 |\n|  d2 d>e d>c | c>B B2 G>B | B>A A>D ^F>A | G>^F G>A B>c \\\n|  d2 d>e d>c | c>B B2 G>B | B>A A>D ^F>A | Gz G4 :|\n|: G2 {AG}^F2 G2 | A2 {BA}G2 A2 | B>c B>A B>c | d2- d>c B>A \\\n|  G2 {AG}^F2 G2 | A2 {BA}G2 A2 | B>c B>A B>c | d2 e2 =e2 |\n|  f>e c2 (3cde | d>c B4 | d>c A2 (3ABc | B>A G4 \\\n|  g>e c2 (3cde | d>B G2 G>B | A2 A>c B>A | Gz G4 :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
         "name": "Hintikan Matin jenkka",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Hintikan Matin jenkka\nO: Finland\nR: shottish, jenkka\nM: 2/4\nL: 1/16\nK: Dm\n|: a2a>g f2f>e | d2c2 B4 |1,3 A2^ce a2ae | fgfe d2A2 \\\n                                   :|2,4 A2^ce a2c2 | d2d2 d4 :|\n|: D3F A2A2 | B2B2 A4 |1,3 A2^ce a2ae | fgfe d2A2 \\\n                                 :|2,4 A2^ce a2c2 | d2d2 d4 :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
-    },
-    {
-        "name": "Isä-Jussin sottiisi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Isä-Jussin sottiisi\nC: Konsta Jylhä{}\nO: Finland\nM: 4/4\nL: 1/8\nK: C\n|: C2EG c2Bc | e2cA GFED \\\n| C2EG c2Bc | B2A2 A4 \\\n| f2fg fedc | B2B2 B3A |\n| GABc defg | agge cAGE \\\n|| C2EG c2Bc | e2cA GFED \\\n| C2EG c2Bc | B2A2 A4 | f2fe d^cdf |\n| e2c2 G4 | B2Bc BGAB | c2eg g4 \\\n| f2fe d^cdf | e2c2 G4 \\\n| B2Bc BGAB | c2c2 Hc4 :|\n|: faaf defa | g2ge c2Bc \\\n| e2G2 BGBd |1,3 c2eg g3f :|2,4 dc c2 c4 \\\n:: EAc2 EAc2 | cBdc BA^GA |\n| Bcd2 f3e | e2d2 cBA2 \\\n|  EAc2 EAc2 | cBdc BA^GA \\\n| Bcdf e2^G2 |1 A4 A4 :|2 A4 G4 |]\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
         "name": "Juuret Suomessa",
@@ -1090,10 +1034,6 @@ var FinnishTunes2 = [
     {
         "name": "Katariina's polkka",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Katariina's polkka\nR: polka\nO: Richard Koski\nB:\nD:  with the Crumtown Ramblers\nZ: 1998 by John Chambers <jc@trillian.mit.edu>\nN:\nM: 2/4\nL: 1/16\nK: Am\n   e4 \\\n| fedc BcBA | c2B2 B3E  |     c2B2 Bcdc | B2A2 A4 \\\n|     A2AB cBcd | e2d2 d4   |     d3e  fefg | f2e2 e4 |\ny8\\\n| fedc BcBA | c2B2 B3E  |     c2B2 Bcdc | B2A2 A4 \\\n| d2de fga2 | A2AB cde2 | E2E2 c2B2 | A2z2 :|\n|:  G4 \\\n| C2EG c2B2 |     A2G2 G4   |     C2EG c2B2 | B2A2 F4 \\\n|  D2D2 G2G2 |     FEDE F2F2 |     D2D2 F2F2 |  EDCD E2E2 |\ny8\\\n|   C2EG c2B2 |     A2G2 G4   |     C2EG c2B2 | B2A2 F4 \\\n|  d2de fga2 | A2AB cde2 | E2E2 c2B2 | A2z2 :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
-    },
-    {
-        "name": "Kesän tullessa",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Kesän tullessa\nT: Kesä tullee\nT: the Coming of Summer\nC: Konsta Jylhä\nR: waltz\nO: J.P.Nyström\nD:\nB:\nZ: John Chambers <jc:trillian.mit.edu>\nN:\nM: 3/4\nL: 1/8\nK: A\n|: EA \\\n| c3 c c2- | c2 cB AF | E3 E E2- | E2 CD EC | A3 A A2- | A2 AG FE | G6- | G2 GA Bc |\n| d3 d d2- | d2 dc BA | G3 G G2- | G2 EF GA | B3 B B2 | ~B2 A2 B2 | c6- | c4 EA |\n| c3 c c2- | c2 cB AF | E3 E E2- | E2 CD EF | A3 A A2 | A2 B2 c2 | d6- | d4 Bc |\n| d3 d d2- | d2 dc BA | c3 c c2- | c2 BA GF | GF E2 F2 | D4 B,2 | A,6- | A,2 z2 :| [K:Am]\n|: E2 \\\n| E3 cBc | E3 cBc | d4 c2 | B4 E2 | B2 B2 c2 | d2 c2 B2 | c4 d2 | e3 c A2 |\n| f3 d B2 | g4 ~f2 | e6- | e4 d2 \\\n|1 c2 B2 A2 | G4 F2 | E6- | E4 :|2 c2 e2 c2 | d2 ~c2 B2 | A6- | A2 z2 |]\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
         "name": "Koiviston polska",
@@ -1176,16 +1116,8 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Knapsauspolkka\nR: polka\nO:\nB:\nD:\nZ: John Chambers <jc@trillian.mit.edu>\nN:\nM: 2/4\nL: 1/16\nK: Am\n|: .e2a2 .e2a2 | fgfe d2dc | B2.e2 B2.e2 | cdcB ABcd \\\n|  .e2a2 .e2a2 | fgfe d2dc | B2e2 ^g2eg | b2a2 a2z2 :|\n|: G2c2 c2Bc | e2c2 c2BA | G2g2 g2^fg | a2g2 g^fg2 \\\n|  G2c2 c2Bc | e2c2 c2BA | G2g2 gdBd | c2e2 c2z2 :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
-        "name": "Konstan parempi valssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Konstan parempi valssi\nT: Konsta's better waltz\nR: waltz\nC: Konsta Jylhä\nB:\nD:\nZ: 1997 by John Chambers <jc:trillian.mit.edu>\nN: From a July 1971 recording by Purppuripelimannit.\nN: The title means , and was bestowed on the tune by musicians\nN: who liked the tune.  Konsta Jylhä was one of Finland's best-known traditional\nN: fiddlers, and one of the main organizers of the Kaustinen festival.\nM: 3/4\nL: 1/8\nK: D\n|: DD DF Ad | f4 d2 | d2 {ed}cd ed | B2 {=c}BA GF \\\n| EE A2 {A}c2 | c4 B2 |1,3 A2 {BA}^GA BA | F2 E2 D2 :|2,4 A2 {BA}^GA Bc | d4 z2 :|\nF2 \\\n|: B3 c d2 | d3 cBd | c3 B^AB | c3 ^A F2 \\\n| f3 gfg | fe dc B^A |1,3 Bc de fg | f4 F2 :|2,4 B2  zB B2 | B4 z2 :|\nf2 \\\n|: f3 gaf | d3 ef2 | gf ga bg | e2 ze e2 \\\n| gf ga bg | e2 ze eg | fe fg af | d2 A2 F2 ||\n|| {DA}f3 gaf | d3 ef2 | gf ga bg | e2 za ac' \\\n| c'b ba ag | ge cA Bc | d2 zD D2 | D4 z2  :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
-    },
-    {
         "name": "Karjalan poikia",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Karjalan poikia (Löylyä lissää)\n%%musicspace 0\nR: polka\nO: trad Finland\nZ: John Chambers <jc:trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: D\n% - - - - - - - - - - - - - - - - - - - - - - - - -\nP: Karjalan poikia   [D]\n|: a2a2 a2a2 | ~a2ga b2a2 | f2f2 f2f2 | ~f2ef g2f2 \\\n| e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 |1 d2c2 B2A2 :|2 e2d2 d4 |]\n|: A2BA F2A2 | d6 e2 | f2gf e2f2 | g2z2 f4 \\\n| e2[e2A2] c2Ac | e2[e2A2] c2Ac | e2g2 f2e2 |1 d2c2 B2A2 :|2 e2d2 d4 |]\nw: | | | |~ Hej!\n% - - - - - - - - - - - - - - - - - - - - - - - - -\nP: Karjalan poikia   [G]\nK: G\n|: d2d2 d2d2 | ~d2cd e2d2 | B2B2 B2B2 | ~B2AB c2B2 \\\n| A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 |1 G2F2 E2D2 :|2 A2G2 G4 |]\n|: D2ED B,2D2 | G6 A2 | B2cB A2B2 | c2z2 B4 \\\n| A2[A2D2] F2DF | A2[A2D2] F2DF | A2c2 B2A2 |1 G2F2 E2D2 :|2 A2G2 G4 |]\nw: | | | |~ Hej!\n\n%%sep 1 1 500\n%%sep 1 1 500"
-    },
-    {
-        "name": "Penttilän sillalla",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Penttilän sillalla\nT: At the Penttilä bridge\nC: Konsta Jylhä\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: Em\n|: e>f ge B2 B2 | G>A GE F4 | F>G Ac B2 BF | A2 G2 GF E2 |\\\n| e>f ge B2 B2 | B>e ge f4 | fg ag fe ^dB | e2 e2 e4 :|\n|: D2 FA cB ce | d2 dg B2 Bd | c2 ce AG FD | G2 B2 d4 |\\\n| e2 ef ~g2 fe | d2 dg B2 Bd | c2 ce fd ef | g2 g2 g4 :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
         "name": "Polka Medley 1",
@@ -1214,10 +1146,6 @@ var FinnishTunes2 = [
     {
         "name": "Pappilan pellolla",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Pappilan pellolla\nO: trad Finland\nR: shottish\nZ: 2002 John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: G\n|: g2 fa g2 fe | e>d dB G2 Bd |\\\n[1,3 d>c cA F2 Ac | e>d dB G2 Bd :|\\\n[2,4 d>c cA F2 FA | A2 G2 G4 :|\n|: D2 FA c2 Bc | e>d dB G2 Bd |\\\n[1,3 d>c cA F2 Ac | e>d dB GG FE :|\\\n[2,4 d>c cA F2 FA | A2 G2 G4 :|"
-    },
-    {
-        "name": "Penttilän sillalla",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Penttilän sillalla   [Dm,F]\nT: At the Penttilä bridge\nC: Konsta Jylhä\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: Dm\n|:\\\nd>e fd A2 A2 | F>G FD E4 | E>F GB A2 AE | G2 F2 FE D2 | d>e fd A2 A2 |\nA>d fd e4 | ef gf ed ^cA | d2 d2 d4 :: C2 EG BA Bd | c2 cf A2 Ac |\nB2 Bd GF EC | F2 A2 c4 | d2 de ~f2 ed | c2 cf A2 Ac | B2 Bd ec de | f2 f2 f4 :|"
     },
     {
         "name": "Piiripolkka",
@@ -1274,10 +1202,6 @@ var FinnishTunes2 = [
     {
         "name": "Savitaipaleen polkka",
         "abc": "%%abc-charset utf-8\\n\\nX: 3\nT: Savitaipaleen polkka\nT: Ievan polkka\nR:polka\nD:Kevin Burke: Up Close\nO:South Karelia\nZ:id:hn-polka-41\nM:2/4\nL:1/8\nK:Bm\n|: B>B Bc | dB Bd | cA Ac | d/c/B/A/ BF \\\n|      B>B Bc | dB B2 | ef/e/ dc | B2 B2 :|\n|: f>d df | ec cd | ef/e/ dc | Bc de \\\n|      f>d df | ec cd | ef/e/ dc | B2 B2 :|"
-    },
-    {
-        "name": "Sukkula polkka",
-        "abc": "%%abc-charset utf-8\\n\\nX: 4\nT: Sukkula polkka\nC: Konsta Jylhä\nR: polka\nO: Finland\nZ: 1998 by John Chambers <jc:trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: F\n|: {AB}c2Ac f2AB | c2BA BAG2 |1,3 {ga}g2eg c'2e2 | g2f2 agf2 \\\n                                   :|2,4 g2eg c'2eg | g2f2 f4 :|\n|: AccA BddB | ABcf faaf |1,3 gbbg eceg | gfag fedc \\\n                                  :|2,4 gbbg eceg | ~g2f2 f4  :| [K:Bb]\n|: f2bf d2fd | B2dB F2B2 |1,3 ABcd efg2 | fecA F2F2 \\\n                            :|2,4 ABce g2Ac | B2d2 B4 :|"
     },
     {
         "name": "Polka",
@@ -1572,10 +1496,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 37\nT: Nauhapolkka (Vironpolkka)\nM: 2/4\nL: 1/8\nK: G\nP: G:\nd/c/ |: BB Bc/B/ | AA AB/c/ | dd d/c/B/A/ | GG G2 :: ce ce | Bd Bd | cD DF | AG G2 :|\nP: D:\nK: D\na/g/ |: ff fg/f/ | ee ef/g/ | aa a/g/f/e/ | dd d2 :: gb gb | fa fa | gA Ac | ed d2 :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
-        "name": "Penttilän sillalla",
-        "abc": "%%abc-charset utf-8\\n\\nX: 39\nT: Penttilän sillalla   [Em,G]\nT: At the Penttilä bridge\nC: Konsta Jylhä\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: Em\n|:\\\ne>f ge B2 B2 | G>A GE F4 | F>G Ac B2 BF | A2 G2 GF E2 | e>f ge B2 B2 |\nB>e ge f4 | fg ag fe ^dB | e2 e2 e4 :: D2 FA cB ce | d2 dg B2 Bd |\nc2 ce AG FD | G2 B2 d4 | e2 ef ~g2 fe | d2 dg B2 Bd | c2 ce fd ef | g2 g2 g4 :|\n\n%%sep 1 1 500\n%%sep 1 1 500"
-    },
-    {
         "name": "Raatikkon",
         "abc": "%%abc-charset utf-8\\n\\nX: 43\nT: Raatikkon\nO: Trad Finland\nM: 2/4\nL: 1/8\n%P: C2 G2 ...\nK: C\nP: Raatikkon   [C]\n[| EG C2 | EG C2 | DE FG | A2 G2 \\\n|  EG C2 | EG C2 | DE FB,| D2 C2 ||\n|: c2 c2 | B2 B2 | AA/c/ BA | G3 z \\\n\\\n|  FA GF | EG FE | DF ED | C3 z :|\nP: Raatikkon   [G]\nK: G\n[| Bd G2 | Bd G2 | AB cd | e2 d2 \\\n|  Bd G2 | Bd G2 | AB cF| A2 G2 ||\n|: g2 g2 | f2 f2 | ee/g/ fe | d3 z \\\n|  ce dc | Bd cB | Ac BA | G3 z :|\n\n#/home/jc/sh/abcjoin: sep=1.\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
@@ -1626,10 +1546,6 @@ var FinnishTunes2 = [
     {
         "name": "Karjalan kunnailla",
         "abc": "%%abc-charset utf-8\\n\\nX: 63\nT: Karjalan kunnailla\nO: Trad Finland\nZ: John Chambers <jc@trillian.mit.edu>\nM: 3/4\nL: 1/8\nK: Em\nB,2 \\\n| G4 B,D | F2 F2 G2 | E4 E2 | B,4 G,B, \\\n| D2 D2 F2 | E2 E2 C2 | B,4 C2 | D4 B,B, |\n| G4 B2 | F2 F2 G2 | E4 F2 | B,4 G2 \\\n| E2 E2 G2 | B4 ^D2 | F4 G2 | E4 |]\n\n%%sep 0 1 8cm\n\n%%sep 1 1 500\n%%sep 1 1 500"
-    },
-    {
-        "name": "Konstan parempi valssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 64\nT: Konstan parempi valssi\nR: waltz\nC: Konsta Jylhä\nB:\nD:\nZ: 1997 by John Chambers <jc@trillian.mit.edu>\nN: From a July 1971 recording by Purppuripelimannit.\nN: The title means , and was bestowed on the tune by musicians\nN: who liked the tune.  Konsta Julhä was one of Finland's best-known traditional\nN: fiddlers, and one of the main organizers of the Kaustinen festival.\nM: 3/4\nL: 1/8\nK: D\n|: DD DF Ad | f4 d2 | d2 {ed}cd ed | B2 {=c}BA GF \\\n| EE A2 {A}c2 | c4 B2 |1,3 A2 {BA}^GA BA | F2 E2 D2 :|2,4 A2 {BA}^GA Bc | d4 z2 :|\nF2 \\\n|: B3 c d2 | d3 cBd | c3 B^AB | c3 ^A F2 \\\n| f3 gfg | fe dc B^A |1,3 Bc de fg | f4 F2 :|2,4 B2  zB B2 | B4 z2 :|\nf2 \\\n|: f3 gaf | d3 ef2 | gf ga bg | e2 ze e2 \\\n| gf ga bg | e2 ze eg | fe fg af | d2 A2 F2 ||\n|| {DA}f3 gaf | d3 ef2 | gf ga bg | e2 za ac' \\\n| c'b ba ag | ge cA Bc | d2 zD D2 | D4 z2  :|\n\n%%sep 0 1 8cm\n\n%%sep 1 1 500\n%%sep 1 1 500"
     },
     {
         "name": "Kotimaani ompi Suomi",
@@ -2093,10 +2009,6 @@ var FinnishTunes2 = [
     },
     {
         "name": "Nimetön",
-        "abc": "%%abc-charset utf-8\\n\\nX: 2\nP: Käyn ahon laitaa\nC: Juha Vainio\nM: C|\nL: 1/4\nK: D\n| F^E FE | FA, DF | FE E^D | E3 z \\\n| E^D ED | EA, CE | ED DC | D3 z |\n| F^E FE | FB, ^DF | FE EF | Gz ^G2 \\\n| AA A=G | F2 E2 | D4- DA, DF |\n| A2 A2- | AA GF | G2 E2- | EA, CE \\\n| G2 G2- | GG F^E | F4- | FA, DF |\n| A2 A2- | AA GF | G2 E2- | EA, CE \\\n| G2 G2- | GG FE | D2 z2 | z2 z2 \\\n|1 Ta4- | a4 :|2 zA Bc | dz Kdz |]**"
-    },
-    {
-        "name": "Nimetön",
         "abc": "%%abc-charset utf-8\\n\\nX: 3\nP: Kohtalon tango  (Tango of Destiny)\nC: Unto Mononen\nZ: John Chambers <jc:trillian.mit.edu>\n%%staffsep 40\nM: C\nL: 1/8\nK: Am\n\\\n[| A^G Ac BA EC | FE F>A GF CA, \\\n| D^C DF ED- DB,/^G,/ | A,2 .E2 .A2 yCD \\\n\\\n|: E2 ^DE G2 FC | E2 D^C D2 B,=C |\n| D2 ^CD F2 EB, | D2 C4 A,B, \\\n| C2 B,C E2 DA, | C2 B,^A, B,2 ^G,=A, \\\n|1 B,2 ^A,B, D2 CD | E6 CD \\\n:|2 B,2 ^A,B, D2 C^G, | A,2 zE E2 ^D2 ||\n\\\n|| FE EC A,4- | A,2 A2 A2 ^G2 \\\n| BA AF D4- | D2 F2 F2 E2 \\\n| GF FD B,D ^CD | FE EC A,C B,C |\n| ED D^C D=C CB, | C2 E2 E2 ^D2 \\\n\\\n|| FE EC A,4- | A,2 A2 A2 ^G2 \\\n| BA AF D4- | D2 A2 A2 ^G2 |\n| BA AF DA A^G | BA AE CE E^D \\\n| FE E^D E=D CB, | A,2 .E2 H.A2 z2 \\\n\\\n|: ee/e/ e^d eA Bc | ed d^c d4 |\n| dd/d/ d^c d^G AB | dc cB c4 \\\n| ee/e/ e^d e^c =de | gf fe ff ed |\n|1 cB/B/ B^A B=A A^G | Bc d>^d e4 \\\n:|2 cB/B/ B^A B=A A^G | A2 .E2 .A2 z2 |]"
     },
     {
@@ -2337,23 +2249,11 @@ var FinnishTunes2 = [
     },
     {
         "name": "Nimetön",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nP: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Am\n[| EAG | F>ED | B,ED | C>B,A, |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| E^F^G | A>Bc | B=G^F | E2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| ABc | B>AA | GFB, | F>EE |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| AcB | ^F2^G | dcB | e3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| cGE | D2F | E2[^GD] | [A3C3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain."
-    },
-    {
-        "name": "Nimetön",
-        "abc": "%%abc-charset utf-8\\n\\nX: 2\nP: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Dm\n[| Adc | B>AG | EAG | F>ED |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| A=B^c | d>ef | e=c=B | A2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| def | e>dd | cBE | B>AA |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| dfe | =B2^c | gfe | a3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| fcA | G2B | A2[^cG] | [d3F3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain."
-    },
-    {
-        "name": "Nimetön",
         "abc": "%%abc-charset utf-8\\n\\nX: 3\nP: Väliaikainen\nC: Matti Jurva\nM: C|\nL: 1/8\nK: Em\n|: B,B, | E2EF G2FE | F2G2 A2BA | G2FE F2E^D | E4 z2 :|\n|: Bc | d2d2 d2cB | c2c2 c2AB | c2c2 c2BA | B2B2 B2GA |\n| B2B2 B2AG | A2A2 A2BA | G2FE F2E^D | E4 z2 :|"
     },
     {
         "name": "Finnish Songs 19",
         "abc": "%%abc-charset utf-8\\n\\nX: 0\nT: Finnish Songs 19\nK:"
-    },
-    {
-        "name": "Nimetön",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nP: Vanhoja poikia viiksekkäitä\nR: waltz\nC: Juha Vainio\nM: 6/8\nL: 1/8\n%%staffsep 40\nK: Dm\nDE \\\n| FFF ED^C | ED2- DDE | FFF GGG | GFG A2 A/B/ | AGG GGA |\n| GF2- FDE | FDD D^CD | E3- EDE || FFF EAG | FFE DDE | FFF GGG |\n| GcB A2 A/A/  | BGF EFG | AGA D2D/E/ | FDC A,2C | D3- DC2 || AAG FFC |\n| B>BA AG2 | GGF EED | CD>C C2C \\\n| A>AG F>FC | _E2D AG2 | GGF E2C |\n|1 CAG F2G/A/ | B/c/B/A/G/F/ E/C/AG | F/E/F/G/A/B/ A \\\n:|2 CAG F2G/A/ | [AA3-]EA [GA3-]EG | [FA3-]DF [AE^C] \\\n:|3 CAG HF3 |]"
     },
     {
         "name": "Nimetön",
@@ -2568,22 +2468,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Tuonne taakse metsämaan    (Cm)\nO: Trad Finland\nZ: John Chambers <jc@trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: Cm\n|: E2ED C2C=B, | C2E2 G4 | c2c2 A2AG | F4 G4 :|\n|: G2c2 B3A | G3F G3F | E2E2 D2D2 | C4 C4 :|"
     },
     {
-        "name": "Vaiennut viulu",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Gm\n[| DGF | E>DC | A,DC | B,>A,G, |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| D=E^F | G>AB | A=F=E | D2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| GAB | A>GG | FEA, | E>DD |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| GBA | =E2^F | cBA | d3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| BFD | C2E | D2[^FC] | [G3B,3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain.\n\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Vaiennut viulu",
-        "abc": "%%abc-charset utf-8\\n\\nX: 2\nT: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Am\n[| EAG | F>ED | B,ED | C>B,A, |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| E^F^G | A>Bc | B=G^F | E2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| ABc | B>AA | GFB, | F>EE |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| AcB | ^F2^G | dcB | e3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| cGE | D2F | E2[^GD] | [A3C3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain.\n\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Vaiennut viulu",
-        "abc": "%%abc-charset utf-8\\n\\nX: 3\nT: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Dm\n[| Adc | B>AG | EAG | F>ED |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| A=B^c | d>ef | e=c=B | A2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| def | e>dd | cBE | B>AA |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| dfe | =B2^c | gfe | a3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| fcA | G2B | A2[^cG] | [d3F3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain.\n\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Vaiennut viulu",
-        "abc": "%%abc-charset utf-8\\n\\nX: 4\nT: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Em\n[| Bed | c>BA | FBA | G>FE |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| B^c^d | e>fg | f=d^c | B2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| efg | f>ee | dcF | c>BB |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| egf | ^c2^d | agf | b3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| gdB | A2c | B2[^dA] | [e3G3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain."
-    },
-    {
         "name": "Finnish waltz 1",
         "abc": "%%abc-charset utf-8\\n\\nX: 0\nT: Finnish waltz 1\nK: C"
     },
@@ -2616,10 +2500,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 0\nT: Finnish waltz 3\nK: C"
     },
     {
-        "name": "Hannun ja Riitan häävalssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Hannun ja Riitan häävalssi\nT: Hannu and Riita's Wedding Waltz\nR: waltz\nC: Konsta Jylhä\nB:\nD:\nZ: John Chambers <jc:trillian.mit.edu>\nN:\nM: 3/4\nL: 1/4\nK: Am\n|: [ec]>fe | [eB]>fe | [eA]dc | [B2^G2]B/c/ \\\n| [dF]>cB | [cE]BA | [GD]AF | [E3C3] |\n| [ec]>fe | [eB]>fe | [eA][af][ge] | [f3d3] \\\n| [ec]>d[cA] | [d^G]eB | A3- | A2 :|\n|: d/e/f/e/d | g2f | e2-e/c/ | c3 \\\n| e/^g/b/g/e | dcd | e3- | e3 |\n| def | fed | c>de | AGF \\\n| E2E | ^F2^G |1 A3- | A3 :|2 A3- | A2G ||\n|: Gz/E/G/c/ | e/g/gf/e/ | d/a/ a/z/a | a>af/d/ \\\n| B/g/ g/z/g | g>fd/B/ | G/e/ e/z/e | e2E/F/ |\n| Gz/E/G/c/ | e/g/gf/e/ | d/a/ a/z/a | a>gf/e/ \\\n| d/g/ g/z/g | BgB |1 c3- | c2E/F/ :|2 c3 | e3 |]"
-    },
-    {
         "name": "Hökpers vals",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Hökpers vals\nC: Lars Hökpers\nZ: 1997 by John Chambers <jc:trillian.mit.edu>\nM: 3/4\nL: 1/8\nK: Dm\n|: A2 \\\n| d3 efa | g3 fed | ^c2 A3G | F4 D2 \\\n| F2 EF AG | E4 c2 | =B2 GA Bd | A4 ^c2 |\n| d3 efa | g3 fed | ^c2 A3G | F4 E2 \\\n| D2 ^CD EF | AG G3E | F2 E2 D^C | D4 :|\n|: A2 \\\n| AF FD FA | AF FD FA | A2 G2 zF | E4 G2 \\\n| GE E^C  EG | GE E^C  EG | G2 A2 zE | F4 A2 |\n| AF FD FA | AF FD FA | A2 d3c | B4 B2 \\\n| B2 c3B | A4 F2 | GF E2 D^C | D4 :|"
     },
@@ -2638,10 +2518,6 @@ var FinnishTunes2 = [
     {
         "name": "Finnish waltz 6",
         "abc": "%%abc-charset utf-8\\n\\nX: 0\nT: Finnish waltz 6\nK: C"
-    },
-    {
-        "name": "Konstan parempi valssi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Konstan parempi valssi\nT: Konsta's better waltz\nR: waltz\nC: Konsta Jylhä\nB:\nD:\nZ: 1997 by John Chambers <jc:trillian.mit.edu>\nN: From a July 1971 recording by Purppuripelimannit.\nN: The title means , and was bestowed on the tune by musicians\nN: who liked the tune.  Konsta Jylhä was one of Finland's best-known traditional\nN: fiddlers, and one of the main organizers of the Kaustinen festival.\nM: 3/4\nL: 1/8\nK: D\n|: DD DF Ad | f4 d2 | d2 {ed}cd ed | B2 {=c}BA GF \\\n| EE A2 {A}c2 | c4 B2 |1,3 A2 {BA}^GA BA | F2 E2 D2 :|2,4 A2 {BA}^GA Bc | d4 z2 :|\nF2 \\\n|: B3 c d2 | d3 cBd | c3 B^AB | c3 ^A F2 \\\n| f3 gfg | fe dc B^A |1,3 Bc de fg | f4 F2 :|2,4 B2  zB B2 | B4 z2 :|\nf2 \\\n|: f3 gaf | d3 ef2 | gf ga bg | e2 ze e2 \\\n| gf ga bg | e2 ze eg | fe fg af | d2 A2 F2 ||\n|| {DA}f3 gaf | d3 ef2 | gf ga bg | e2 za ac' \\\n| c'b ba ag | ge cA Bc | d2 zD D2 | D4 z2  :|"
     },
     {
         "name": "In the Manchurian Hills",
@@ -2820,10 +2696,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Pig Squeal Shottish\nO: Scandinavia\nR: shottish\nW: * Fiddles make squealing sounds on the wrong side of the bridge.\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: D\n|: FG | A2 f2 f>e dF | G2 E4 ed | c2 cB A>g fe |1,3 d2 dB A2 |2,4 d2 d2 d2 :|\n|: FG | Az z2 z2 A2 | Bz z2 z2 B2 |1,3 c2 G2- G>A Bc | B2 A4 :|2,4 c2 cB A>g fe | d2 d2 d2 :|"
     },
     {
-        "name": "Rapukestit",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Rapukestit\nT: Crayfish party\nR: shottish\nC: Konsta Jylhä\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: Dm\n|: A2 \\\n| d2 de fe d^c | ed AF D2 DE | FE FA G2 ~F2 | E6 EF \\\n| G2GA BABc | cee2 e3f | gf ed c2 ~B2 | A6 A2 |\n| d2 de fe d^c | ed AF D2 DE | ^F2 FG A2 c2 | B4 B4 \\\n| ef gf ed ^cA | de fe dA FD | GA BG A2 ^c2 | d6 :|\n|: AB \\\n| c2 cf ag fd | cd cA F2 FA | ~c2 Ac fe e2 | B6 GA \\\n| B2 Bd E2 GA | BA Bd E2 GA | BA Bd e2 ~d2 | A6 AB |\n| c2 cf ag fd | cd cA F2 FA | ~c2 Ac fe g2 | d6 ga \\\n| ba gf e2 c2 | c'b ag fdc2 | d^c df e2 =c2 | f6 :|"
-    },
-    {
         "name": "Rasputin",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Rasputin\nR: shottish\nZ: John Chambers <jc:trillian.mit.edu>\nM: C\nL: 1/8\nK: Am\n|: A2 Ac e2 e2 | f2 fa e2 e2 | d2 d2 c2 c2 | B2 e2 e>d cB | A2 Ac e2 e2 |\n| f2 fa e2 e2 | d>c B2 Bd cB | A2 c2 A2 z2 :: g2 g2 g3 f | f>e ed e4 |\n| e2 e2 e3 d | d>c cB c4 | f2 {e}de fe d2 | e2 {d}cd ed c2 | ~E2 ^DE c2 B2 | B>A A^G A2 z2 :|"
     },
@@ -2864,10 +2736,6 @@ var FinnishTunes2 = [
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Heilini sinisistä silmistä\nT: At the jenkka show\nC: Georg Malmsten 1957\nC: sanat: Reino Ranta\nR: shottish, jenkka\nM: 4/4\nL: 1/8\nP: AABACA\n%%staffsep 40\nK: Gm\n\\\n| D2 ^FA dA Bc | B2 G2 G2 ^FG | A2 D2 B2 A2 | G4 G2 z2 \\\n\\\n|: B2 AG ^FG AF | G2 D2 D2 ^CD \\\n| F2 E2 B,2 C2 | D4 D2 z2 |\n|  D2 ^FA dA Bc | B2 G2 G2 ^FG \\\n|1,3 A2 G2 ^F2 G2 | A4 D2 z2 \\\n:|2  A2 D2  B2 A2 | G4 G2 z2 \\\n:|4  A2 D2  B2 A2 | G4 GD E=E |\n\\\n[| F2 A4 G2 | F>G E>F D2 C2 | B,D FB A2 G2 | F8 \\\n| E4- ED CD | E4- EG BA | D4- DC B,D | F4- FD E=E |\n| F2 A4 G2 | F>G E>F D2 C2 | B,^C =EG B^c =eg | b2 z2 kg4 \\\n| f2 a4 g2 | f>g e>f d2 c2 | B2 B,2 C2 ^C2 | D2 DE D4 |]\nK: EbCEbBb7EbBb7EbEbG7AbEbBb7EbD7->AGD7GGCGD7GGDmGmA7DmA7DmDmGmDmA7DmA7DmDGDA 7A7DA7DD(D7)GCGD 7D7GD7GG(A7)DGDA 7A7DA7DD(D7)GCGD 7D7GD7GG(A7)AAmAmE7AmAmfineBG7CG7CE7AmA7DmE7AmACCCdimG7CCCdimDmG7Cd.C.DA7A7DDGA7DDGD7D7GGCD7GGGD7C/GGD7GCGD7GD7GADBmE7AADBm(D)AE7ACG7CFCG7CCFCGCDA7DGDA7DDGDADGD7GCGD7GGCGDGGD7D7GCD7GD7GfineEmAmB7EmB7EmEmAmB7EmDGDA7DA7DDGDA7DA7DCGD7GD7GD7GD7GD7GA7DmA7GmC7FA7DmD7GmA7DmGmA7DmFGmC7FFBbGmC7FGmC7FAmDmAmE7AmE7AmDmAmE7AmG7C(#)E7AmDmAmE7AmAmDmE7AmG7CB7E7d.C.DmA7A7Dm(A7)DmA7A7DmCFA7DmD7GmDmA7DmGmD7D7Gm(D7)GmD7D7GmFBbD7GmG7CmGmD7GmFBbFC7FFBbFC7FfineDmGmA7DmDmGmA7DmFGmC7FFGmC7FGD7CD7GD7GGD7CGCD7G\"g2 g2 g4 :|"
     },
     {
-        "name": "Konstan D-molli sotiisi",
-        "abc": "%%abc-charset utf-8\\n\\nX: 3\nT: Konstan D-molli sotiisi\nC: Konsta Jylhä\nR: shottish\nB: Konstan Nuottikirja\nZ: 2014 John Chambers <jc:trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: Dm\n|:\\\nfAfA eGeG | dFdF c2(B2 | A2)AB A2FE | D2F2 A4 |\nfAfA eGeG | dFdF c2(B2 | A2)AB A2^ca | d2d2 d4 :|\n|:\\\n((3Adfa2) gfe2 | ((3Adfa2) gfef | g2ga b2ag | a2a2 a4 |\n(Adfa) g2fe | f2cA G2B2 | AAAB A2FE | D2[d2D2] D4 :|\n\n%%sep 1 1 500"
-    },
-    {
         "name": "Hintikan Matin jenkka",
         "abc": "%%abc-charset utf-8\\n\\nX: 4\nT: Hintikan Matin jenkka\nO: Finland\nR: shottish, jenkka\nM: 2/4\nL: 1/16\nK: Dm\n|: a2a>g f2f>e | d2c2 B4 |1,3 A2^ce a2ae | fgfe d2A2 \\\n                                   :|2,4 A2^ce a2c2 | d2d2 d4 :|\n|: D3F A2A2 | B2B2 A4 |1,3 A2^ce a2ae | fgfe d2A2 \\\n                                 :|2,4 A2^ce a2c2 | d2d2 d4 :|\n\n%%sep 1 1 500"
     },
@@ -2882,14 +2750,6 @@ var FinnishTunes2 = [
     {
         "name": "Parikkalalainen",
         "abc": "%%abc-charset utf-8\\n\\nX: 8\nT: Parikkalalainen   [Dm]\nO: Finland\nZ: 2013 John Chambers <jc:trillian.mit.edu>\nM: 2/4\nL: 1/8\n%Q: 1/4=126\nK: Dm\n|: A2 d>d | d>A A>A | c>B A>G | A2 A2 :|\n|: AA A>G | A>F D>E | F>F E>E | D2 D2 :|\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Penttilän sillalla",
-        "abc": "%%abc-charset utf-8\\n\\nX: 9\nT: Penttilän sillalla   [Dm,F]\nT: At the Penttilä bridge\nC: Konsta Jylhä\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: Dm\n|:\\\nd>e fd A2 A2 | F>G FD E4 | E>F GB A2 AE | G2 F2 FE D2 | d>e fd A2 A2 |\nA>d fd e4 | ef gf ed ^cA | d2 d2 d4 :: C2 EG BA Bd | c2 cf A2 Ac |\nB2 Bd GF EC | F2 A2 c4 | d2 de ~f2 ed | c2 cf A2 Ac | B2 Bd ec de | f2 f2 f4 :|\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Rapukestit",
-        "abc": "%%abc-charset utf-8\\n\\nX: 10\nT: Rapukestit\nT: Crayfish party\nR: shottish\nC: Konsta Jylhä\nZ: John Chambers <jc:trillian.mit.edu>\nM: 4/4\nL: 1/8\nK: Dm\n|: A2 \\\n| d2 de fe d^c | ed AF D2 DE | FE FA G2 ~F2 | E6 EF \\\n| G2GA BABc | cee2 e3f | gf ed c2 ~B2 | A6 A2 |\n| d2 de fe d^c | ed AF D2 DE | ^F2 FG A2 c2 | B4 B4 \\\n| ef gf ed ^cA | de fe dA FD | GA BG A2 ^c2 | d6 :|\n|: AB \\\n| c2 cf ag fd | cd cA F2 FA | ~c2 Ac fe e2 | B6 GA \\\n| B2 Bd E2 GA | BA Bd E2 GA | BA Bd e2 ~d2 | A6 AB |\n| c2 cf ag fd | cd cA F2 FA | ~c2 Ac fe g2 | d6 ga \\\n| ba gf e2 c2 | c'b ag fdc2 | d^c df e2 =c2 | f6 :|\n\n%%sep 1 1 500"
     },
     {
         "name": "Semmonen Tämmönen",
@@ -2998,10 +2858,6 @@ var FinnishTunes2 = [
     {
         "name": "Käy neitoa kaksi",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Käy neitoa kaksi\nO: Suomalainen kansanlaulu\nM: C\nL: 1/8\nK: Bm\nB, \\\n| B,2 DE F2 DD | EG FD E3 E | EF GA B2 AG | DF F4 z |]\n|: F \\\n| B2 GF EF GB | A>G FF D2- DC | B,B, DE FF DD | C2 B,4 z :|\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Käyn ahon laitaa",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Käyn ahon laitaa\nC: Juha Vainio\nM: C|\nL: 1/4\nK: D\n| F^E FE | FA, DF | FE E^D | E3 z \\\n| E^D ED | EA, CE | ED DC | D3 z |\n| F^E FE | FB, ^DF | FE EF | Gz ^G2 \\\n| AA A=G | F2 E2 | D4- DA, DF |\n| A2 A2- | AA GF | G2 E2- | EA, CE \\\n| G2 G2- | GG F^E | F4- | FA, DF |\n| A2 A2- | AA GF | G2 E2- | EA, CE \\\n| G2 G2- | GG FE | D2 z2 | z2 z2 \\\n|1 Ta4- | a4 :|2 zA Bc | dz Kdz |]**\n\n%%sep 1 1 500"
     },
     {
         "name": "Kiikkuri kaakkuri",
@@ -3214,30 +3070,6 @@ var FinnishTunes2 = [
     {
         "name": "Uralin pihlaja",
         "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Uralin pihlaja\nT: Uralskaya ryabinushka\nT: Ural Rowan Tree\nC: Savelmä: Eveniy P. Rodygin\nC: Suom. sanat: Veikko Vallas\nM: 6/8\nL: 1/8\nK: Dm\n|: D2D F2D | G3 D2E | F2E A2G | D3- D3 |\nw: 1.~Il-lan tuu-li soit-taa jo lat-vaa pih-la-jan.\n| D2A A2F | G3 D2E | FEF A2G | F3- F3 |\nw: Kau-pun-gis-ta kuu-len mä vals-sin niin kai-hoi- san.\n| c2c cBA | G3 D2D | E2F GFG | A3- A3 |\nw: Pih-la-jas-ta se ker-too, on tut-tu ta-ri-na sen.\n| F2F FGA | c3 B2A | G2E A2G | D3- D3 ||\nw: Muis-tan U-ra-lin rin-teil-tä val-ko-lat-vuk-sen.\n|: D2[dB] [dB]>[cA][dB] | [c3A3] [B2G2][BG] | [B2G2][cA] [dB]>[cA][BG] | ([A3-F3] [A3E3]) |\nw: 1,2.~Niin-kuin sep-pe-le-päi-nen vain nuo-ri mor-si-an on,\nw:  ~3.~Sil-loin ...\n| [F2D2][FD] [FD][GE][AF] | [c3A3] [B2G2][AF] | [G2E2][E^C] [A2F2][GE] | D3 z3 :|\nw: kuk-kii pih-la-ja-hun-tu tuo al-la au-rin-gon.\n%\nW:2.Kauas tuonne jääneen mä tiedän pihlajan.\nW: Kauas kulki tieni, jäi hän, jota rakastan.\nW: Syksyn punaiset marjat kuin kyynel pihlajan on.\nW: Itkin pihlaja lailla, on sydän onneton.\nW:\nW:3.Kenties kerran vielä soi tuuli lauhemmin,\nW: kaupunkien pauhu jää taaksi viimeinkin.\nW: Missä pihlaja kukkii, taas armaan nähdä mä saan.\nW: Luonto puhkeaa kukkaansa jälleen kaueimpaan.\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Vaiennut viulu",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Am\n[| EAG | F>ED | B,ED | C>B,A, |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| E^F^G | A>Bc | B=G^F | E2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| ABc | B>AA | GFB, | F>EE |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| AcB | ^F2^G | dcB | e3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| cGE | D2F | E2[^GD] | [A3C3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain.\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Vaiennut viulu",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Dm\n[| Adc | B>AG | EAG | F>ED |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| A=B^c | d>ef | e=c=B | A2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| def | e>dd | cBE | B>AA |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| dfe | =B2^c | gfe | a3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| fcA | G2B | A2[^cG] | [d3F3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain.\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Vaiennut viulu",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Em\n[| Bed | c>BA | FBA | G>FE |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| B^c^d | e>fg | f=d^c | B2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| efg | f>ee | dcF | c>BB |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| egf | ^c2^d | agf | b3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| gdB | A2c | B2[^dA] | [e3G3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain.\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Vaiennut viulu",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Vaiennut viulu\nC: sävelmä: Konsta Jylhä\nC: sanat: Viljami Niittykoski\nZ: John Chambers <jc@trillian.mit.edu>\nB: , Edition Coda, Helsinki, 1970\nM: 3/4\nL: 1/4\nK: Gm\n[| DGF | E>DC | A,DC | B,>A,G, |\nw: 1.~On viu-lu vai-en-nut, on soit-to rau-en-nut\nw: 2.~Nyt viu-lu sei-näl-lään, kai-va-ten yk-si-nään\n| D=E^F | G>AB | A=F=E | D2z |\nw: mi en-nen helk-ky-en her-käs-ti soi\nw: muis-te-lee hän-tä mi nuk-kui jo pois.\n| GAB | A>GG | FEA, | E>DD |\nw: i-lo-ja ih-mis-ten, su-ru-ja sy-dän-ten\nw: Hän en-nen jou-sel-laan, hy-väil-len soi-tin-taan,\n| GBA | =E2^F | cBA | d3 |\nw: kau-neim-man kai-puun il-moil-le toi,\nw: sen kie-let soin-tuin hur-ma-han sai,\n| BFD | C2E | D2[^FC] | [G3B,3] |]\nw: niin-kuin vain viu-lu soi-da voi.\nw: kuin tai-to-mies voi saa-da vain.\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Väliaikainen",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Väliaikainen\nC: Matti Jurva\nM: C|\nL: 1/8\nK: Em\n|: B,B, | E2EF G2FE | F2G2 A2BA | G2FE F2E^D | E4 z2 :|\n|: Bc | d2d2 d2cB | c2c2 c2AB | c2c2 c2BA | B2B2 B2GA |\n| B2B2 B2AG | A2A2 A2BA | G2FE F2E^D | E4 z2 :|\n\n%%sep 1 1 500"
-    },
-    {
-        "name": "Vanhoja poikia viiksekkäitä",
-        "abc": "%%abc-charset utf-8\\n\\nX: 1\nT: Vanhoja poikia viiksekkäitä\nR: waltz\nC: Juha Vainio\nM: 6/8\nL: 1/8\n%%staffsep 40\nK: Dm\nDE \\\n| FFF ED^C | ED2- DDE | FFF GGG | GFG A2 A/B/ | AGG GGA |\n| GF2- FDE | FDD D^CD | E3- EDE || FFF EAG | FFE DDE | FFF GGG |\n| GcB A2 A/A/  | BGF EFG | AGA D2D/E/ | FDC A,2C | D3- DC2 || AAG FFC |\n| B>BA AG2 | GGF EED | CD>C C2C \\\n| A>AG F>FC | _E2D AG2 | GGF E2C |\n|1 CAG F2G/A/ | B/c/B/A/G/F/ E/C/AG | F/E/F/G/A/B/ A \\\n:|2 CAG F2G/A/ | [AA3-]EA [GA3-]EG | [FA3-]DF [AE^C] \\\n:|3 CAG HF3 |]\n\n%%sep 1 1 500"
     },
     {
         "name": "Varjele, vakainen Luoja",
