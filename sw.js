@@ -1,11 +1,11 @@
-const CACHE_NAME = 'harptune-v7';
+const CACHE_NAME = 'harptune-v8';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './script.js',
   './manifest.json',
-  './harpkuva.png'
+  './harptunefinderkuva.png'
 ];
 
 // Asennusvaihe: Tallennetaan perustiedostot välimuistiin
