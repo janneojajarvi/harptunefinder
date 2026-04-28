@@ -9,13 +9,13 @@
   "theme_color": "#2196F3",
   "icons": [
     {
-      "src": "kuva.png",
+      "src": "harptunefinderkuva.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "kuva.png",
+      "src": "harptunefinderkuva.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
