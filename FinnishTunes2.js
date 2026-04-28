@@ -1,4 +1,4 @@
-var finnish_tunes = [
+var FinnishTunes2 = [
     {
         "name": "Lantti",
         "abc": "%%abc-charset utf-8\\n\\nX: 0\nT: Lantti\nO: trad Finland\nZ: John Chambers <jc@trillian.mit.edu>\nP: F2 Bb2 ... (4-6 times)\nK:\n% - - - - - - - - - - - - - - - - - - - - - - - - -\nP: Lantti   [F]\nM: 2/4\nL: 1/16\nK: F\n|: A2AA A2B2 | c2c2 c3c | c2a2 g3c | c2g2 f3B \\\n|  A2AA A2B2 | c2c2 c3c | c2a2 g3e | f2f2 f4 :|\n|: a4 f4 | c2c2 c4 | a4 f4 | c2c2 c4 \\\n| b2b2 b4 | a2a2 a4 | g2g2 gbge | g2f2 f4 :|\n% - - - - - - - - - - - - - - - - - - - - - - - - -\nP: Lantti   [Bb]\nZ: John Chambers <jc@trillian.mit.edu>\nM: 2/4\nL: 1/16\nK: Bb\n|: D2DD D2E2 | F2F2 F3F | F2d2 c3F | F2c2 B3E \\\n|  D2DD D2E2 | F2F2 F3F | F2d2 c3A | B2B2 B4 :|\n|: d4 B4 | F2F2 F4 | d4 B4 | F2F2 F4 \\\n| e2e2 e4 | d2d2 d4 | c2c2 cecA | c2B2 B4 :|"
