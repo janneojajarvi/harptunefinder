@@ -28,6 +28,7 @@ async function loadGistData() {
     "sessionSet17.js",
     "sessionSet18.js",
     "extrasetti5.js",
+    "FinnishTunes2b.js",
     "folkwikiSet1.js",
     "folkwikiSet2.js",
     "folkwikiSet3.js"
